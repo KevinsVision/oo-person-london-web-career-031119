@@ -11,5 +11,9 @@ class Person
     @name
   end
   
+  def self.bank_account(person = 25)
+    
+    
+  
   
 end
