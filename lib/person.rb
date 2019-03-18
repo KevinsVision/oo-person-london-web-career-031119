@@ -4,7 +4,7 @@ class Person
   attr_reader :name
   # attr_accessor :
   
-  name = {}
+  name = []
   
   def initialize(name)
     @@name = name
