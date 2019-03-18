@@ -1,7 +1,7 @@
 # your code goes here
 
 class Person
-  attr_writer :name
+  attr_reader :name
   # attr_accessor :
   
   def initialize(name)
