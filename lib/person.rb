@@ -4,11 +4,11 @@ class Person
   attr_reader :name
   # attr_accessor :
   
-  names = {}
+  name = {}
   
   def initialize(name)
     @@name = name
-    @@name << names
+    @@name << name
   end
   
 end
