@@ -13,7 +13,7 @@ class Person
     @name
   end
   
-  def bank_account(balance)
+  def bank_account
     @balance
   end
   
