@@ -2,20 +2,20 @@
 
 class Person
   # attr_accessor :balance
-  attr_reader :name, :balance
+  attr_reader :name
   
-  def initialize(name, balance)
+  def initialize(name)
     @name = name
-    @balance = balance
+    # @balance = balance
   end
   
   def name
     @name
   end
   
-  def self.bank_account(balance= 25)
-    @balance
-  end
+  # def self.bank_account(balance= 25)
+  #   @balance
+  # end
   
   
 end
